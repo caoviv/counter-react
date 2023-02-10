@@ -9,4 +9,4 @@ Key concepts covered:
 - useState
 - useEffect
 
-View this website here -> counter-react-vc.netlify.app
+View this website [here](https://counter-react-vc.netlify.app)
