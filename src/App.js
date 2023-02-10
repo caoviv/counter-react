@@ -14,7 +14,20 @@ function App() {
     setCount(0);
   };
 
-
+  useEffect(() => {
+    const value = document.querySelector("#value");
+    if (count > 0) {
+      value.style.color = "green";
+    }
+    // change negative numbers to red
+    if (count < 0) {
+      value.style.color = "red";
+    }
+    // change number 0 to black
+    if (count === 0) {
+      value.style.color = "rgb(16, 42, 66)";
+    }
+  });
 
   return (
     <main>
